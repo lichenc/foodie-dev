@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.imooc.mapper.CategoryCustomMapper" >
+  <resultMap id="BaseResultMap" type="com.imooc.vo.CategoryVO" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="INTEGER" />
+    <result column="fatherId" property="fatherId" jdbcType="INTEGER" />
+    <!-- collection标签：用于定义关联的list集合类型的封装规则
+         property:对应三级分类的list属性名
+         ofType:集合的类型，三级分类的vo
+    -->
+      <collection property="subCatList" ofType="com.imooc.vo.SubCategoryVO">
+      <id column="subId" property="subId" jdbcType="INTEGER" />
+      <result column="subName" property="subName" jdbcType="VARCHAR" />
+      <result column="subType" property="subType" jdbcType="INTEGER" />
+      <result column="subFatherId" property="subFatherId" jdbcType="INTEGER" />
+    </collection>
+  </resultMap>
+
+  <select id="querySubCatList" parameterType="int" resultMap="BaseResultMap">
+    SELECT
+	p.id as id,
+	p.name as name,
+	p.type as type,
+	p.father_id as fatherId,
+	c.id as subId,
+	c.name as subName,
+	c.type as subType,
+	c.father_id as subFatherId
+	from
+		category p
+		LEFT JOIN
+		category c
+		on p.id = c.father_id where p.father_id = #{rootCatId}
+  </select>
+</mapper>

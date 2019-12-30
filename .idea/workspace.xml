@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="414f9881-0d77-4577-b9e9-6205fed4d94e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/foodie-dev-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/aspect/ServiceLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/Swagger2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/StuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/src/test/java/com/imooc/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/META-INF/foodie-dev-api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/aspect/ServiceLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/config/Swagger2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/HelloController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/IndexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/PassportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/com/imooc/controller/StuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/foodie-dev-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-api/target/test-classes/com/imooc/test/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/foodie-dev-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/IMOOCJSONResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/MD5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/DayCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/InvalidSystemClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/RandomCodeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Sid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/WorkerIdStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/FileLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/HttpReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/IPv4Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Ip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Props.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Serializes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/META-INF/foodie-dev-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/common/utils/Const$Sex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/common/utils/Const$Show.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/common/utils/Const.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/common/utils/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/common/utils/IMOOCJSONResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/common/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/com/common/utils/MD5Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Code.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/DayCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/InvalidSystemClock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/RandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Sid$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Sid.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/WorkerIdStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/strategy/FileLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/HttpReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/IPv4Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Ip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Props$Silent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Props.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Serializes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/classes/org/n3r/idworker/utils/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/foodie-dev-common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/foodie-dev-mapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryCustomMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsCommentsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsImgMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsSpecMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/StuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/UsersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/my/mapper/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryCustomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/ItemsSpecMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/OrderStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/CarouselMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/CategoryCustomMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsCommentsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsImgMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/ItemsSpecMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/OrderStatusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/StuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/mapper/UsersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/com/imooc/my/mapper/MyMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CategoryCustomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsCommentsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsImgMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsParamMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/ItemsSpecMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/OrderStatusMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/StuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/classes/mapper/UsersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/foodie-dev-mapper-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-mapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/foodie-dev-pojo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/bo/UserBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsImg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/ItemsSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Stu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/CategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/SubCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/META-INF/foodie-dev-pojo.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/bo/UserBO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Carousel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Items.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/ItemsComments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/ItemsImg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/ItemsParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/ItemsSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Stu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/pojo/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/vo/CategoryVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/classes/com/imooc/vo/SubCategoryVO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/foodie-dev-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-pojo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/foodie-dev-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/StuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/TestTransService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CarouselServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/TestTransServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/CarouselService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/StuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/TestTransService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/CarouselServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/StuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/TestTransServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/classes/com/imooc/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/foodie-dev-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foodie-dev.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-common/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-pojo/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-mapper/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-service/target/" />
+    <ignored path="$PROJECT_DIR$/foodie-dev-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Embedde</find>
+      <find>mvc</find>
+      <find>TranslationAutoC</find>
+      <find>TranslationAutoConfiguration</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Code.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/DayCode.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/InvalidSystemClock.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/RandomCodeStrategy.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Test.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/DefaultWorkerIdStrategy.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/FileLock.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/HttpReq.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/IPv4Utils.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Ip.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Props.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Serializes.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/WorkerIdStrategy.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/IdWorker.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Id.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/bo/UsersBo.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/Application.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/Sid.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/StuController.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/CrosConfig.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/UserService.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/bo/UserBO.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/JsonUtils.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/aspects/Aspects.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/aspect/Aspects.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/aspect/ServiceLogAspect.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/Const.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CarouselServiceImpl.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CarouselService.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/CategoryVo.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/SubCategoryVo.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryCustomMapper.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/SubCategoryVO.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/CategoryVO.java" />
+        <option value="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryCustomMapper.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/software/apache-maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="C:\software\apache-maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.imooc:foodie-dev-service:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.imooc:foodie-dev-service:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.imooc:foodie-dev-mapper:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.imooc:foodie-dev-service:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.imooc:foodie-dev-mapper:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.imooc:foodie-dev-pojo:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="foodie-dev-api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.imooc:foodie-dev-service:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.imooc:foodie-dev-mapper:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.imooc:foodie-dev-pojo:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="com.imooc:foodie-dev-common:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-131" />
+    <option name="y" value="64" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="foodie-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.mapper" />
+      <recent name="com.imooc.pojo" />
+      <recent name="com.imooc.my.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\isprint\foodie-dev" />
+      <recent name="C:\isprint\foodie-dev\foodie-dev-mapper\src\main\resources\mapper" />
+      <recent name="C:\isprint\foodie-dev\foodie-dev-common\src\main\java\com\common\utils" />
+      <recent name="C:\isprint\foodie-dev\foodie-dev-mapper\src\main\java\com\imooc\mapper" />
+      <recent name="C:\isprint\foodie-dev\foodie-dev-pojo\src\main\java\com\imooc\pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="IdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.n3r.idworker.IdWorker" />
+      <module name="foodie-dev-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.n3r.idworker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.n3r.idworker.Sid" />
+      <module name="foodie-dev-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.n3r.idworker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.service.impl.UserServiceImpl" />
+      <module name="foodie-dev-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="foodie-dev-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.test.test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="foodie-dev-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.imooc.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.Sid" />
+        <item itemvalue="Application.UserServiceImpl" />
+        <item itemvalue="Application.IdWorker" />
+        <item itemvalue="JUnit.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="414f9881-0d77-4577-b9e9-6205fed4d94e" name="Default Changelist" comment="" />
+      <created>1574773802300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574773802300</updated>
+      <workItem from="1574773809735" duration="2825000" />
+      <workItem from="1575032175182" duration="3578000" />
+      <workItem from="1575201276549" duration="2498000" />
+      <workItem from="1575387168054" duration="1434000" />
+      <workItem from="1575983112780" duration="3038000" />
+      <workItem from="1576158111876" duration="5478000" />
+      <workItem from="1576388713374" duration="8202000" />
+      <workItem from="1576401506928" duration="861000" />
+      <workItem from="1576403169259" duration="593000" />
+      <workItem from="1576407488728" duration="9440000" />
+      <workItem from="1576504273747" duration="5255000" />
+      <workItem from="1576641659934" duration="776000" />
+      <workItem from="1576765797633" duration="41880000" />
+      <workItem from="1577196507519" duration="5750000" />
+      <workItem from="1577243124952" duration="9076000" />
+      <workItem from="1577611899264" duration="8041000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test - 2019.12.15 at 22h 33m 50s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.15 at 22h 41m 14s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.16 at 22h 12m 21s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.16 at 22h 37m 47s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.16 at 22h 40m 13s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.16 at 22h 42m 31s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.16 at 22h 51m 01s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.21 at 13h 55m 57s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.21 at 14h 00m 49s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test - 2019.12.21 at 14h 08m 07s.xml">
+      <configuration name="test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="108725000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39052287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29296234" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32843137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.1860817" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31996974" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30718955" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.4640523" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.1860817" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java</url>
+          <line>18</line>
+          <properties class="com.imooc.service.CategoryService" method="querySubCatList">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/annotation/Repeatable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/idworker/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="93" column="61" selection-start-line="93" selection-start-column="61" selection-end-line="93" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#2474#2475#0" expanded="true" />
+            <element signature="e#2523#2524#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#2655#2656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/service/ApiInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/builders/ApiInfoBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/stereotype/Component.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.7.RELEASE/spring-core-5.1.7.RELEASE.jar!/org/springframework/util/ObjectUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar!/org/springframework/plugin/metadata/SimplePluginMetadata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin-metadata/1.2.0.RELEASE/spring-plugin-metadata-1.2.0.RELEASE.jar!/org/springframework/plugin/metadata/PluginMetadata.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/http/MediaType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="73" column="65" lean-forward="true" selection-start-line="73" selection-start-column="65" selection-end-line="73" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spi/2.4.0/springfox-spi-2.4.0.jar!/springfox/documentation/spi/DocumentationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#996#997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.4.0/springfox-spring-web-2.4.0.jar!/springfox/documentation/spring/web/plugins/Docket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="247" column="36" selection-start-line="247" selection-start-column="30" selection-end-line="247" selection-end-column="36" />
+          <folding>
+            <element signature="e#9325#9326#0" expanded="true" />
+            <element signature="e#9376#9377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/RequestHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/base/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.4.0/springfox-spring-web-2.4.0.jar!/springfox/documentation/spring/web/plugins/ApiSelectorBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="29" column="62" lean-forward="true" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/builders/PathSelectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar!/springfox/documentation/builders/RequestHandlerSelectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.7.RELEASE/spring-context-5.1.7.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.6/swagger-annotations-1.5.6.jar!/io/swagger/annotations/ApiOperation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.imooc:foodie-dev:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.imooc:foodie-dev:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.imooc:foodie-dev:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot:jar:2.1.5.RELEASE/org.springframework:spring-context:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.5.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework:spring-core:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.springframework:spring-core:jar:5.1.7.RELEASE/org.springframework:spring-jcl:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.5.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.5.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.5.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.8/com.fasterxml.jackson.core:jackson-core:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.5.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.5.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.5.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.5.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.5.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.5.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.16.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework:spring-web:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework:spring-web:jar:5.1.7.RELEASE/org.springframework:spring-beans:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework:spring-webmvc:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework:spring-webmvc:jar:5.1.7.RELEASE/org.springframework:spring-aop:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.5.RELEASE/org.springframework:spring-webmvc:jar:5.1.7.RELEASE/org.springframework:spring-expression:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.1.5.RELEASE</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.41</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.0/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.5.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.0/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.5.RELEASE/com.zaxxer:HikariCP:jar:3.2.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.0/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.5.RELEASE/org.springframework:spring-jdbc:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.0/org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.5.RELEASE/org.springframework:spring-jdbc:jar:5.1.7.RELEASE/org.springframework:spring-tx:jar:5.1.7.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.0/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:2.1.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.0/org.mybatis:mybatis:jar:3.5.2</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:2.1.0/org.mybatis:mybatis-spring:jar:2.0.2</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/org.mybatis:mybatis:jar:3.4.6</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/org.mybatis:mybatis-spring:jar:1.3.2</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/tk.mybatis:mapper-core:jar:1.1.5</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/tk.mybatis:mapper-core:jar:1.1.5/javax.persistence:persistence-api:jar:1.0</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/tk.mybatis:mapper-base:jar:1.1.5</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/tk.mybatis:mapper-weekend:jar:1.1.5</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/tk.mybatis:mapper-spring:jar:1.1.5</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/tk.mybatis:mapper-extra:jar:1.1.5</node>
+            <node x="" y="">tk.mybatis:mapper-spring-boot-starter:jar:2.1.5/tk.mybatis:mapper-spring-boot-autoconfigure:jar:2.1.5</node>
+            <node x="" y="">commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.5</node>
+            <node x="" y="">commons-io:commons-io:jar:1.3.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.swagger:swagger-annotations:jar:1.5.6</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.swagger:swagger-models:jar:1.5.6</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.swagger:swagger-models:jar:1.5.6/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-spi:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-spi:jar:2.4.0/io.springfox:springfox-core:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-schema:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-swagger-common:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/io.springfox:springfox-spring-web:jar:2.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.4.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.4.0</node>
+            <node x="" y="">com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.361437908496732" x="854.0" y="1362.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="64" selection-start-line="64" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/aspect/ServiceLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar!/org/aspectj/lang/annotation/Around.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="89" column="42" lean-forward="true" selection-start-line="75" selection-start-column="6" selection-end-line="89" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Carousel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-common/src/main/java/com/common/utils/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CarouselService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CarouselServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/bo/UserBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="22" column="97" selection-start-line="22" selection-start-column="97" selection-end-line="22" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/StuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="91" column="14" lean-forward="true" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/CategoryVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/vo/SubCategoryVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryCustomMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-mapper/src/main/resources/mapper/CategoryCustomMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="45" selection-start-line="45" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>foodie-dev-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
