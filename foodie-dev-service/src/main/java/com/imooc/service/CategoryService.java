@@ -17,4 +17,11 @@ public interface CategoryService {
      * @return
      */
     public IMOOCJSONResult querySubCatList(Integer rootCatId);
+
+    /**
+     * 根据一级分类id查询最新的六个商品信息
+     * @param rootCatId
+     * @return
+     */
+    public IMOOCJSONResult queryNewItemsList(Integer rootCatId);
 }

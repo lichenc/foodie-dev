@@ -21,6 +21,25 @@
     </collection>
   </resultMap>
 
+    <resultMap id="simpleCategoryMap" type="com.imooc.vo.ItemsVO" >
+        <!--
+          WARNING - @mbg.generated
+        -->
+        <id column="rootCatId" property="rootCatId" jdbcType="INTEGER" />
+        <result column="rootCatName" property="rootCatName" jdbcType="VARCHAR" />
+        <result column="slogan" property="slogan" jdbcType="INTEGER" />
+        <result column="catImage" property="catImage" jdbcType="INTEGER" />
+        <result column="bgColor" property="bgColor" jdbcType="INTEGER" />
+        <!-- collection标签：用于定义关联的list集合类型的封装规则
+             property:对应三级分类的list属性名
+             ofType:集合的类型，三级分类的vo
+        -->
+        <collection property="simpleItemList" ofType="com.imooc.vo.SimpleItemVO">
+            <id column="itemId" property="itemId" jdbcType="INTEGER" />
+            <result column="itemName" property="itemName" jdbcType="VARCHAR" />
+            <result column="itemUrl" property="itemUrl" jdbcType="INTEGER" />
+        </collection>
+    </resultMap>
   <select id="querySubCatList" parameterType="int" resultMap="BaseResultMap">
     SELECT
 	p.id as id,
@@ -36,5 +55,30 @@
 		LEFT JOIN
 		category c
 		on p.id = c.father_id where p.father_id = #{rootCatId}
+  </select>
+
+    <select id="sixNewItemsList" parameterType="int" resultMap="simpleCategoryMap">
+    SELECT
+        c.id as rootCatId,
+        c.name as rootCatName,
+        c.slogan as slogan,
+        c.cat_image as catImage,
+        c.bg_color as bgColor,
+        i.id as itemId,
+        i.item_name as itemName,
+	    ii.url as itemUrl
+		FROM items i
+	LEFT JOIN category c
+	ON i.root_cat_id = c.id
+	LEFT JOIN items_img ii
+	ON ii.item_id = i.id
+	WHERE i.root_cat_id= #{rootCatId}
+    AND
+          c.type = 1
+    AND
+          ii.is_main = 1
+    ORDER BY i.created_time
+    DESC
+    LIMIT 0,6
   </select>
 </mapper>

@@ -8,6 +8,7 @@ import com.imooc.pojo.Carousel;
 import com.imooc.pojo.Category;
 import com.imooc.service.CategoryService;
 import com.imooc.vo.CategoryVO;
+import com.imooc.vo.ItemsVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -47,6 +48,16 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public IMOOCJSONResult querySubCatList(Integer rootCatId) {
         List<CategoryVO> result = categoryCustomMapper.querySubCatList(rootCatId);
+        if(result == null){
+            return IMOOCJSONResult.errorMsg("分类不存在");
+        }
+        return IMOOCJSONResult.ok(result);
+    }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public IMOOCJSONResult queryNewItemsList(Integer rootCatId) {
+        List<ItemsVO> result = categoryCustomMapper.sixNewItemsList(rootCatId);
         if(result == null){
             return IMOOCJSONResult.errorMsg("分类不存在");
         }

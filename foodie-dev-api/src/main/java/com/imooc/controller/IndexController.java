@@ -49,4 +49,17 @@ public class IndexController {
         //直接将结果返回
         return categoryService.querySubCatList(rootCatId);
     }
+
+    @ApiOperation(value = "查询最新六个商品接口", notes = "查询最新六个商品接口", httpMethod = "GET")
+    @GetMapping("/sixNewItems/{rootCatId}")//{rootCatId}是路径参数的定义方式
+    public IMOOCJSONResult sixNewItems(
+            @ApiParam(name = "rootCatId", value = "一级分类id", required = true)
+            @PathVariable Integer rootCatId){//需要在参数里面加上 @PathVariable Integer rootCatId
+
+        if (rootCatId == null) {
+            return IMOOCJSONResult.errorMsg("分类不存在");
+        }
+        //直接将结果返回
+        return categoryService.queryNewItemsList(rootCatId);
+    }
 }
